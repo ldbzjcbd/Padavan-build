@@ -125,7 +125,7 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_CURL=n" >> configs/templates/$TNAME.config         #删除工具CURL
         echo "CONFIG_FIRMWARE_INCLUDE_OPENSSH=y" >> configs/templates/$TNAME.config      #删除OPENSSH
         echo "CONFIG_FIRMWARE_INCLUDE_SFTP=n" >> configs/templates/$TNAME.config         #删除SFTP
-        echo "CONFIG_FIRMWARE_INCLUDE_TCPDUMP=y" >> configs/templates/$TNAME.config      #删除TCPDUMP
+        echo "CONFIG_FIRMWARE_INCLUDE_TCPDUMP=n" >> configs/templates/$TNAME.config      #删除TCPDUMP
         echo "CONFIG_FIRMWARE_INCLUDE_EAP_PEAP=n" >> configs/templates/$TNAME.config     #删除EAP_PEAP
         echo "CONFIG_FIRMWARE_INCLUDE_OPENSSL_EC=y" >> configs/templates/$TNAME.config   #删除OPENSSL_EC
         echo "CONFIG_FIRMWARE_CPU_900MHZ=y" >> configs/templates/$TNAME.config           #开启超频，仅MT7621可用
