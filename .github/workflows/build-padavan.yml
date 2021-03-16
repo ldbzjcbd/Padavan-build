@@ -105,7 +105,7 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_QOS=y" >> configs/templates/$TNAME.config          #删除QOS
         echo "CONFIG_FIRMWARE_INCLUDE_SMBD36=y" >> configs/templates/$TNAME.config       #使用SMBD36新版本
         echo "CONFIG_FIRMWARE_INCLUDE_DDNS_SSL=y" >> configs/templates/$TNAME.config     #删除DDNS_SSL
-        echo "CONFIG_FIRMWARE_INCLUDE_HTTPS=n" >> configs/templates/$TNAME.config        #删除HTTPS
+        echo "CONFIG_FIRMWARE_INCLUDE_HTTPS=y" >> configs/templates/$TNAME.config        #删除HTTPS
         echo "CONFIG_FIRMWARE_INCLUDE_OPENVPN=y" >> configs/templates/$TNAME.config      #删除OPENVPN
         echo "CONFIG_FIRMWARE_INCLUDE_FFMPEG_NEW=y" >> configs/templates/$TNAME.config   #使用FFMPEG新版本
         echo "CONFIG_FIRMWARE_INCLUDE_XUPNPD=n" >> configs/templates/$TNAME.config       #删除用于IPTV的XUPNPD
